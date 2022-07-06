@@ -1,0 +1,1 @@
+alert("This is from basic2.js");
