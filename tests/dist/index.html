@@ -1,24 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Pallet CSS Test</title>
 
-  <link rel="stylesheet " href="/bundle.css">
+  <script>
+    alert("This is from basic.js");
+  </script>
+  <script>
+    alert("This is from basic2.js");
+  </script>
 </head>
 <body>
 
-  <h1>Hello, World!</h1>
 
-  <script>
-    const ws = new WebSocket("ws://localhost:3000");
-
-    ws.onopen = () => {
-      console.log("WebSocket connected");
-    };
-
-    ws.onmessage = (event) => {
-      window.location.reload();
-    };
-  </script>
 </body>
 </html>
