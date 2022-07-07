@@ -2,9 +2,9 @@
 
 ## Install 
 ```
-npm install pallet
+npm install pallet-bundler
 or...
-npm install -g pallet
+npm install -g pallet-bundler
 ```
 
 ## Getting Started
@@ -47,7 +47,6 @@ module.exports = {
   },
 }; 
 ```
-
 ### Steps
 1. Make a file called `pallet.config.js`.
 2. Run `pallet`!
