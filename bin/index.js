@@ -38,8 +38,9 @@ const argv = yargs(process.argv)
   })
   .help().argv;
 
-if (fs.existsSync(path.join(process.cwd(), argv.config))) {
-  const config = require(path.join(process.cwd(), argv.config));
+const configPath = path.join(process.cwd(), argv.config)
+if (fs.existsSync(configPath)) {
+  const config = require(configPath);
   build(config);
 } else {
   const outputConfig = {
