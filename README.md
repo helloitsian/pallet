@@ -42,7 +42,6 @@ module.exports = {
     js: {
       immediate: "bundle.js",
       defered: "defered.bundle.js",
-      ...(options.output?.js || {}),
     },
   },
 }; 
